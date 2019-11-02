@@ -1,20 +1,19 @@
 /**Copyright (c) 2019   Hao Da (Kevin) Dong
- * @file                lib.hpp
+ * @file                lib.cpp
  * @date                2019/11/02
- * @brief               Declares dummy() which prints a string
+ * @brief               Implements dummy()
  * @license             This project is released under the BSD-3-Clause License
  */
 
-#ifndef INCLUDE_LIB_HPP_
-#define INCLUDE_LIB_HPP_
-
 #include <iostream>
+#include <lib.hpp>
 
 /**
  * @brief   Prints a string to cout
  * @param   
  * @return  
  */
-void dummy();
+void dummy() {
+    std::cout << "My name is Kevin" << std::endl;
+}
 
-#endif      // INCLUDE_LIB_HPP_
